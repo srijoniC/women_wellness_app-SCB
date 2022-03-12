@@ -17,14 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
     // Remove digits - not sure if this is best
     // But solves problem of entering something like 'hi1'
   
-    let text = input.toLowerCase().replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
+    let text = input.trim();
     text = text
-      .replace(/ a /g, " ")   // 'tell me a story' -> 'tell me story'
-      .replace(/i feel /g, "")
-      .replace(/whats/g, "what is")
-      .replace(/please /g, "")
-      .replace(/ please/g, "")
-      .replace(/r u/g, "are you");
+      // .replace(/ a /g, " ")   // 'tell me a story' -> 'tell me story'
+      // .replace(/i feel /g, "")
+      // .replace(/whats/g, "what is")
+      // .replace(/please /g, "")
+      // .replace(/ please/g, "")
+      // .replace(/r u/g, "are you");
   
     if (compare(prompts, replies, text)) { 
       // Search for exact match in `prompts`
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let replyFound = false;
     for (let x = 0; x < promptsArray.length; x++) {
       for (let y = 0; y < promptsArray[x].length; y++) {
-        if (promptsArray[x][y] === string) {
+        if (promptsArray[x][y] == string) {
           let replies = repliesArray[x];
           reply = replies[Math.floor(Math.random() * replies.length)];
           replyFound = true;
