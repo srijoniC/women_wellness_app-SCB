@@ -14,5 +14,5 @@ https://drive.google.com/file/d/1dBGVR72uKInstfy2CVW8qQBnNama-VFX/view?usp=shari
 
 Srijoni Chakroborty ---> Firebase Authentication and Signup page, Static chatbot (Deployed), Self-evaluation form with score calculator, Card View of Common diseases.
 Simran Singh ---> Designed and coded AI based chatbot (Scope: Future Implementation) using Python, ML(Decision Tree Algorithm).
-Sakshi Suman ---> Creating Super responsive Home page.
+Sakshi Suman ---> Creating Super responsive Home page using CSS, HTML5, JS and adding smooth scroll effect using JS.
 Sikha Joshi---> Gathering Relevant Information, and creation of more information pages.
